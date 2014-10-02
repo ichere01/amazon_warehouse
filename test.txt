@@ -1,5 +1,0 @@
-Order 123 for regular customer arrived at time 0
-fetch time 15 minutes, pack time 22 minutes
-
-Order 127 for supreme customer arrived at time 12
-fetch time 3 minutes, pack time 12 minutes
