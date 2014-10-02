@@ -1,0 +1,30 @@
+#ifndef WAREHOUSE_H
+#define WAREHOUSE_H
+
+#include "retriever.h"
+//.#include "PackerSet.h"
+#include "Packager.h"
+
+const int numPackagers = 3;
+
+class Warehouse {
+
+public:
+    
+    void sendToPackaging(); // considers supremes
+    void sendToPackagingNormal(); // doesn't consider supremes
+    void startSimulation();
+
+    void sendToPackagingNormal();
+    void addSupreme(Order toAdd);
+    void addNormal(Order toAdd);
+    bool isWorking();
+    
+private:
+    
+    Retriever retriever;
+    Retriever buffer; 
+    Packager packerSet[numPackagers];
+};
+#endif
+

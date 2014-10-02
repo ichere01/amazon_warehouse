@@ -1,0 +1,31 @@
+#include "Warehouse.h"
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+    Warehouse Test;
+    /*Order toAdd;
+    toAdd.ID = 1;
+    toAdd.timePacked = 1;
+    toAdd.isSupreme = true;
+    Set.addSupreme(toAdd);
+      //Test.print();
+    Order t2;
+    t2.ID = 2;
+    t2.timePacked = 5;
+    t2.isSupreme = true;
+    Test.addSupreme(t2);
+    //Test.print();
+    Order t3;
+    t3.ID = 3;
+    t3.timePacked = 10;
+    t3.isSupreme = true;
+    Test.addSupreme(t3);
+    // Test.print(); */
+    Test.startSimulation(); 
+}
+
+
